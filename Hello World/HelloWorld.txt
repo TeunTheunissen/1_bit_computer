@@ -1,0 +1,19 @@
+//Hello World
+//reads the io pin 0 and copies the value to the 8 output pins.
+//Highliting or lower the output leds
+Adres	Data	Comment
+0C	8C	Store the loworder nibble jump adres
+0D	40	Store the highorder nibble jump adres
+0E	C1	Set the AND function as the active function 
+0F	30	Read the value of the input port 0 to FF1 register
+10	B0	Set register FF2 to the result of the active function on port 0 and FF1
+11	00	Nop
+12	60	Put the value of FF2 to output port 0
+13	61	Put the value of FF2 to output port 1
+14	62	Put the value of FF2 to output port 2
+15	63	Put the value of FF2 to output port 3
+16	64	Put the value of FF2 to output port 4
+17	65	Put the value of FF2 to output port 5
+18	66	Put the value of FF2 to output port 6
+19	67	Put the value of FF2 to output port 7
+1A	F1	Jump to the adres in the jump register
