@@ -1,0 +1,49 @@
+1 Bit Pc Annotation
+
+Memory adress
+Display of the memory adres in hexadecimal form.
+The adres is 8 bits wide so max memory size is 256bytes
+
+Memory data
+Display of the memory data in hexadecinmal form.
+The data is 8 bits wide so the values are between 0 and 255
+
+Display test button
+Lights up all the segments of the display.
+
+Digital output, 8 bit
+There are 8 leds for the 8 individual output lines.
+The led is on when the output is high
+
+Digital input, 8bit
+There are 8 switches for the 8 individual input lines
+The 8 leds indicate the input state the led is on when the input is high
+
+5V Power supply
+around 800mA is neccesary to feed the beast
+
+Hexadecimal keyboard
+The old calculator keyboard has an addition 6 keys for the hexedecimal digts A,B,C,D,E,F
+
+Single Step
+A push on this button changes the adres counter with one
+
+Upwards
+The adrescounter counts upwards
+
+Downwards
+The adrescounter counts downwards
+
+Write data to memory
+A push on thios button write the data on the display to the memory position indicated by the adres
+
+The functionality of the other button and switches:
+
+Reset: Resets the data input.
+
+Slow/Fast: switches the clock frequency
+
+Step/Clock: switches between the single step button and the clock to trigger the memory adres counter.
+
+Run/Prog: In Run state the data in the memory is interpreted, in Prog mode the data can be input.
+
