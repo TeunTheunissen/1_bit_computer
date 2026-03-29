@@ -1,5 +1,5 @@
 # 1_Bit_Computer  
-**The Restoration of My 1-Bit Computer from 1978**
+**The Restoration of My 1-Bit Computer build in 1978**
 
 The full story can be found in the wiki. See the following sections:
 
