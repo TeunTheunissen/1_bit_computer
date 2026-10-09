@@ -1,7 +1,9 @@
 # 1_Bit_Computer  
 **The Restoration of My 1-Bit Computer build in 1978**
+The full story can be fount on the nerdhut site as an publication:
+https://nerdhut.de/2026/09/25/circuitverse-cpu-1
 
-The full story can be found in the wiki. See the following sections:
+The short story can be found in the wiki. See the following sections:
 
 - **Home**: Introduction and the result of the restoration  
 1. **Documentation**: Description and explanation of the computer  
